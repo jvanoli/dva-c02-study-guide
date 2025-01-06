@@ -18,6 +18,7 @@ exams](https://portal.tutorialsdojo.com/courses/aws-certified-developer-associat
 ![image-20250102225445783](./assets/image-20250102225445783.png)
 
 For whitepapers, they include the following:
+
 1. [Implementing Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.pdf) – This paper introduces the ways you can implement a microservice system on different AWS Compute platforms. You should study how these systems are built and the reasoning behind the chosen services for that system.
 2. [Running Containerized Microservices on AWS](https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf) – This paper talks about the best practices in deploying a containerized microservice system in AWS. Focus on the example scenarios where the best practices are applied, how they are applied, and using which services to do so.
 3. [Optimizing Enterprise Economics with Serverless Architectures](https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf) – Read upon the use cases of serverless in different platforms. Understand when it is best to use serverless vs. maintaining your own servers. Also, familiarize yourself with the AWS services that are under the serverless toolkit.
@@ -31,6 +32,7 @@ For whitepapers, they include the following:
 AWS offers extensive documentation and well-written FAQs for all of its services. These two will be your primary source of information when studying AWS. You need to be well-versed in many AWS products and services since you will almost always be using them in your work. I recommend checking out [Tutorials Dojo’s AWS Cheat Sheets](https://tutorialsdojo.com/aws-cheat-sheets/), which provide a summarized but highly informative set of notes and tips for your review on these services.
 
 Services to study for:
+
 1. [Amazon EC2](https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/) / [ELB](https://tutorialsdojo.com/aws-elastic-load-balancing-elb/) / [Auto Scaling](https://tutorialsdojo.com/aws-auto-scaling/) – Be comfortable with integrating EC2 to ELBs and Auto Scaling. Study the commonly used AWS CLI commands, APIs and SDK code under these services. Focus as well on security, maintaining high availability, and enabling network connectivity from your ELB to your EC2 instances. 
 2. [AWS Elastic Beanstalk](https://tutorialsdojo.com/aws-elastic-beanstalk/) – Know when Elastic Beanstalk is more appropriate to use than other computing or infrastructure-as-a-code solutions like CloudFormation. Experiment with the service yourself in your AWS account, and understand how you can deploy and maintain your own application in Beanstalk.
 3. [Amazon ECS](https://tutorialsdojo.com/amazon-elastic-container-service-amazon-ecs/) – Study how you can manage your own cluster using ECS. Also, figure out how ECS can be integrated into a CI/CD pipeline. Be sure to read the FAQs thoroughly since the exam includes multiple questions about containers.
