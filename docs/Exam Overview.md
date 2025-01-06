@@ -25,22 +25,25 @@ The AWS Certified Developer - Associate examination is intended for individuals 
 The AWS Certified Developer - Associate exam has four (4) different domains, each with corresponding weight and topic coverage. The exam domains are Development with AWS Services (32%), Security (26%), Deployment (24%), and Troubleshooting and Optimization (18%)
 
 1. **Domain 1: Development with AWS Services (32%)**
-   1. Develop code for applications hosted on AWS
-   2. Develop code for AWS Lambda
-   3. Use data stores in application development
+  1. Develop code for applications hosted on AWS
+  2. Develop code for AWS Lambda
+  3. Use data stores in application development
+
 2. **Domain 2: Security (26%)**
-   1. Implement authentication and/or authorization for applications and AWS services
-   2. Implement encryption by using AWS services
-   3. Manage sensitive data in application code.
+  1. Implement authentication and/or authorization for applications and AWS services
+  2. Implement encryption by using AWS services
+  3. Manage sensitive data in application code.
+
 3. **Domain 3: Deployment (24%)**
-   1. Prepare application artifacts to be deployed to AWS.
-   2. Test applications in development environments
-   3. Automate deployment testing
-   4. Deploy code by using AWS CI/CD services.
+  1. Prepare application artifacts to be deployed to AWS.
+  2. Test applications in development environments
+  3. Automate deployment testing
+  4. Deploy code by using AWS CI/CD services.
+
 4. **Domain 4: Troubleshooting and Optimization (18%)**
-   1. Assist in a root cause analysis
-   2. Instrument code for observability.
-   3. Optimize applications by using AWS services and features.
+  1. Assist in a root cause analysis
+  2. Instrument code for observability.
+  3. Optimize applications by using AWS services and features.
 
 ![image-20250102225023004](./assets/image-20250102225023004.png)
 
