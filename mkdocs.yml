@@ -1,0 +1,92 @@
+site_name: DVA-C02 Study Guide
+site_description: A study guide for the AWS Certified Developer - Associate exam.
+copyright: Copyright © 2025
+site_author: Javier Vanoli
+repo_name: View in Github
+repo_url: https://github.com/jvanoli/dva-c02-study-guide
+site_url: https://RPA.pages.dms.thehackettgroup.com/ProcessAutomation-Docs
+docs_dir: 'docs'
+site_dir: public
+edit_uri: edit/main/docs
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/gitlab
+    edit: material/pencil 
+    view: material/eye 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  shortcuts:
+    next: 78 # n
+    previous: 80 # p
+    search: 83 # s
+  features:
+    - navigation.instant
+    - search.share
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - navigation.indexes
+    - navigation.footer
+    - navigation.path
+    - content.action.edit
+  font:
+    text: Noto Sans
+    code: IMB Plex Mono
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+  - minify:
+      minify_html: true
+  - roamlinks
+  - exclude:
+      glob:
+        - exclude/this/path/*
+        - "*.excalidraw.md"
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+extra:
+  social:
+    - icon: simple/linkedin
+      name: Find me on LinkedIn!
+      link: https://www.linkedin.com/in/javiervanoli/
+    - icon: fontawesome/solid/paper-plane
+      name: Send me an E-Mail!
+      link: mailto:jvanoli@dinounou.com
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
