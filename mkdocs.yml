@@ -9,6 +9,13 @@ docs_dir: 'docs'
 site_dir: public
 edit_uri: edit/main/docs
 
+# nav:
+#   - Home: Index.md
+#   - Introduction: Introduction.md
+#   - Exam Overview: Exam Overview.md
+#   - Study Guide and Tips: Study Guide and Tips.md
+#   - AWS Deep Dives
+
 theme:
   name: material
   icon:

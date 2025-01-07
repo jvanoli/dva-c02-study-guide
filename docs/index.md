@@ -1,7 +1,7 @@
 ---
 tittle: Home
 icon: material/home
-weight: 1
+weight: -10
 ---
 
 # AWS Certified Developer (DVA-C02) Study Guide
