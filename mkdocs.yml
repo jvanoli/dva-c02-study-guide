@@ -60,6 +60,7 @@ plugins:
         - "*.excalidraw.md"
   - git-revision-date-localized:
       enable_creation_date: true
+  - mkdocs-nav-weight
 
 extra:
   social:

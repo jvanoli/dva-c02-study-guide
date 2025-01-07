@@ -1,3 +1,7 @@
+---
+weight: 1
+---
+
 # AWS Identity Access Management (IAM)
 
 IAM is the primary tool for controlling and managing access to an AWS account. It sits at the core of AWS

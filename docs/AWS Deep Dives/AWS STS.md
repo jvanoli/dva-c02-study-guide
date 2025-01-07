@@ -1,3 +1,7 @@
+---
+weight: 2
+---
+
 # AWS STS
 AWS Security Token Service (AWS STS) is a global web service that allows you to generate temporary access for IAM users or federated users to gain access to your AWS resources. These temporary credentials are session-based, meaning they’re for short-term use only; once expired, they can no longer be used to access your AWS resources.
 

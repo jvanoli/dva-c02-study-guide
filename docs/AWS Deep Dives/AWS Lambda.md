@@ -1,3 +1,7 @@
+---
+weight: 3
+---
+
 # AWS Lambda
 
 AWS Lambda lets you run codes without managing servers. You don’t need to worry about tasks such as scaling, patching, and other management operations that are typically done on EC2 instances or on-premises servers. You can allot the maximum memory available for a Lambda function, as well as the function's execution duration, before timing out. The memory, which scales proportionally to the CPU power, can range from 128 MB to 10,240 MB in 1-MB increments. The default timeout is three seconds, with a maximum value of 900 seconds (15 minutes).

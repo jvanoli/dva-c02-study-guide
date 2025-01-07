@@ -6,3 +6,4 @@ mkdocs-minify-plugin
 mkdocs-roamlinks-plugin
 mkdocs-exclude
 mkdocs-git-revision-date-localized-plugin
+mkdocs-nav-weight
