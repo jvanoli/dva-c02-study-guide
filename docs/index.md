@@ -1,13 +1,24 @@
-# Introduction
+# AWS Certified Developer (DVA-C02) Study Guide
 
-The trend of emerging technologies that have a large impact on industries is a common theme in today’s headlines. More and more companies are adopting newer technologies that will allow them to grow and increase returns. The Amazon Web Services (AWS) Cloud is one example of it. There are more than a million active users of Amazon Web Services. These users are a mix of small businesses, independent contractors, large enterprises, developers, students, and many more. There is no doubt that AWS already has a community
-of users, and the number of newcomers is increasing rapidly each day.
+This website contains the Study Guide put together while studying for the AWS Certified Developer (DVA-C02) exam.
 
-With AWS, you don’t have to purchase and manage your infrastructure. It is a considerable cost saving for your company, and it is a sigh of relief as well for your sysadmin team. Although AWS offers a huge collection of services and products that require little configuration, they also offer traditional ones like VMs and storage devices that work similarly to their physical counterparts. This means that transitioning from an on-premises type of environment to an AWS virtualized environment should be straightforward.
+I basically put it in this format for several reasons:
 
-We think that developers benefit the most from the cloud. You can access your applications from anywhere if you have a browser and an Internet connection (and maybe an SSH/RDP client too). You can spin up machines in a matter of minutes from a catalog of OS and versions that suit your needs. You also have control over your storage devices, which you can also provision and de-provision easily. Aside from traditional VMs, AWS also has other options for you, such as container instances, batch instances, and serverless models that can easily be integrated with APIs. You also do not need to worry about databases. You can host them on your own in VMs with your own licenses or use AWS-provided licenses, or you can even use a managed database, so you do not need to worry about infrastructure. If these are too much for a simple app that you just want to test, AWS has a platform-as-a-service solution wherein you can simply deploy your code, and the service handles the infrastructure for you. In essence, AWS has already provided the tools that its users need to quickly take advantage of the cloud.
+* I found writing in markdown quite confortable
+* I've experience using Material for MKDocs in several proyects at work
+* Pusblish using Material for MKDocs to Github Pages is a breeze
+* Having the source in Markdown I can also publish to ePub (using PanDoc) 
+* In ePub format is good I can read this Study Guide on my Kindle
+* I want to have all my docs version controlled in Git
 
-With all of the benefits presented in using AWS, the true value of being an AWS Certified Developer has your knowledge and skills in developing in AWS recognized by the industry. With this recognition, you’ll gain more opportunities for career growth, financial growth, and personal growth as well. Certified individuals can negotiate for higher salaries, aim for promotions, or land higher job positions. Becoming an AWS Certified Developer Associate is also a great way to start on your journey in DevOps, which is one of the most in-demand and well-compensated roles in the IT industry today. This certificate is a must-have in your portfolio if you wish to progress your career in AWS.
+GitHub Project (Source): https://github.com/jvanoli/dva-c02-study-guide
 
-> We took extra care to come up with these study guides and cheat sheets. However, this is meant to be  just a supplementary resource when preparing for the exam. We highly recommend working on [hands-on sessions](https://portal.tutorialsdojo.com/product/aws-certified-developer-associate-video-course/) and [practice exams](https://portal.tutorialsdojo.com/courses/aws-certified-developer-associate-practice-exams/) to further expand your knowledge and improve your test-taking skills.
+Github Page (Published): https://jvanoli.github.io/dva-c02-study-guide/
 
+References:
+
+* Tutorials Dojo's Study Guide eBook – AWS Certified Developer Associate DVA-C02  
+    https://portal.tutorialsdojo.com/product/tutorials-dojo-study-guide-ebook-aws-certified-developer-associate/
+    
+* Digital Cloud Trainings  
+    https://digitalcloud.training/
