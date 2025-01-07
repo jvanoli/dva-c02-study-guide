@@ -1,3 +1,7 @@
+---
+weight: 3
+---
+
 # Exam Overview
 
 Amazon Web Services (AWS) began the Global Certification Program with the primary purpose of validating the technical skills and knowledge for building secure and reliable cloud-based applications using the AWS platform. By successfully passing the AWS exam, individuals can prove their AWS expertise to their current and future employers.

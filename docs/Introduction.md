@@ -1,3 +1,7 @@
+---
+weight: 2
+---
+
 # Introduction
 
 The trend of emerging technologies that have a large impact on industries is a common theme in today’s headlines. More and more companies are adopting newer technologies that will allow them to grow and increase returns. The Amazon Web Services (AWS) Cloud is one example of it. There are more than a million active users of Amazon Web Services. These users are a mix of small businesses, independent contractors, large enterprises, developers, students, and many more. There is no doubt that AWS already has a community

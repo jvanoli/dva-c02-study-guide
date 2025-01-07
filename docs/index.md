@@ -1,3 +1,9 @@
+---
+tittle: Home
+icon: material/home
+weight: 1
+---
+
 # AWS Certified Developer (DVA-C02) Study Guide
 
 This website contains the Study Guide put together while studying for the AWS Certified Developer (DVA-C02) exam.
