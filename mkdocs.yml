@@ -1,10 +1,10 @@
-site_name: DVA-C02 Study Guide
-site_description: A study guide for the AWS Certified Developer - Associate exam.
-copyright: Copyright © 2025
+site_name: AWS Certified Developer (DVA-C02) Study Guide
+site_description: A study guide for the AWS Certified Developer - Associate (DVA-C02) exam.
+copyright: Copyright Javier Vanoli © 2025
 site_author: Javier Vanoli
 repo_name: View in Github
 repo_url: https://github.com/jvanoli/dva-c02-study-guide
-site_url: https://RPA.pages.dms.thehackettgroup.com/ProcessAutomation-Docs
+site_url: https://jvanoli.github.io/dva-c02-study-guide
 docs_dir: 'docs'
 site_dir: public
 edit_uri: edit/main/docs
@@ -12,9 +12,9 @@ edit_uri: edit/main/docs
 theme:
   name: material
   icon:
-    repo: fontawesome/brands/gitlab
-    edit: material/pencil 
-    view: material/eye 
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
