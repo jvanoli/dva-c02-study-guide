@@ -218,7 +218,7 @@ There are 4 things that you must consider when creating an environment variable:
 
 1. Keys must start with a letter and are at least two characters.
 2. Keys must consist of only letters, numbers, and the underscore character (\_).
-3. There are environment variables that AWS Lambda uses during the INIT phase. These are called reserved environment variables . A key for a reserved environment variable cannot be used in your function configuration. For example, if you’re using an AWS SDK, you might define a variable called ‘AWS_REGION’. This will end up to an error since AWS_REGION is a reserved variable.
+3. There are environment variables that AWS Lambda uses during the INIT phase. These are called [reserved environment variables](https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html). A key for a reserved environment variable cannot be used in your function configuration. For example, if you’re using an AWS SDK, you might define a variable called ‘AWS_REGION’. This will end up to an error since AWS_REGION is a reserved variable.
 4. The total size of all environment variables must not exceed 4 KB.
 
 **References:**
@@ -228,7 +228,7 @@ There are 4 things that you must consider when creating an environment variable:
 - https://aws.amazon.com/premiumsupport/knowledge-center/lambda-environment-variables-iam-access/
 
 ## Lambda function URL
-You can optionally configure an HTTPS endpoint (a.k.a `function URL`) that maps to a specific **alias or version** of your Lambda function. Like any other URLs, function URLs can be accessed via web browsers or through HTTP clients like `urllib3`, `request` (in Python), or `axios` (in Node.Js).
+You can optionally configure an HTTPS endpoint (a.k.a `function URL`) that maps to a specific [alias or version](#versions-and-aliases) of your Lambda function. Like any other URLs, function URLs can be accessed via web browsers or through HTTP clients like `urllib3`, `request` (in Python), or `axios` (in Node.Js).
 
 When you enable function URL, you get to choose between two auth types: `AWS_IAM` and `NONE`. `AWS_IAM`, as the name implies, is only applicable to IAM identities; the requester must be an IAM user or IAM role. AWS Lambda will make a decision on whether to grant access to a function based on the IAM user's or role's permissions.
 
