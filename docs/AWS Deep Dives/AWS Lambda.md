@@ -157,6 +157,7 @@ A single event source can have up to five unique filters. If an event matches an
 ## Execution Environment Lifecycle
 
 Lambda functions undergo three phases when invoked. These are:
+
 1. `INIT Phase`
     * Occurs when a Lambda function is invoked for the **first time after being deployed** or after **a long period of inactivity**.
     * Consists of two stages: *environment creation* and *code initialization*.
