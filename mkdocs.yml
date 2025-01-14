@@ -16,6 +16,8 @@ edit_uri: edit/main/docs
 #   - Study Guide and Tips: Study Guide and Tips.md
 #   - AWS Deep Dives
 
+
+
 theme:
   name: material
   icon:
@@ -41,13 +43,14 @@ theme:
     search: 83 # s
   features:
     - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.footer
+    - navigation.path
     - search.share
     - search.highlight
     - search.suggest
     - toc.follow
-    - navigation.indexes
-    - navigation.footer
-    - navigation.path
     - content.action.edit
   font:
     text: Noto Sans

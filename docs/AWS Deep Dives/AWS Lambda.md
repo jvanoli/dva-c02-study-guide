@@ -277,7 +277,7 @@ Lambda layers can be shared among Lambda functions, making it convenient and eas
 
 AWS Lambda is inherently scalable, but like many other things, there’s a limit to how much it can scale to. It is important that you become aware of this, especially when you’re building a high-throughput application using Lambda functions.
 
-Concurrency is the number of Lambda function executions that can run simultaneously for a period of time. By default, AWS imposes a **limit of 1,000 unreserved concurrent executions** across all Lambda functions for every region per account. But you can overcome this limit and further increase concurrent executions up to hundreds of thousands by contacting AWS Support.
+Concurrency is the number of Lambda function executions that can run simultaneously for a period of time. By default, AWS imposes a **limit of 1,000 unreserved concurrent executions** across all Lambda functions **for every region per account**. But you can overcome this limit and further increase concurrent executions up to hundreds of thousands by contacting AWS Support.
 
 You can strategically distribute concurrencies across your functions, but the **unreserved count** should not go below **100**. This means that the default maximum value of allowable **reserved concurrent executions** is limited to **900**. The reserved concurrent executions allocated to a function set the maximum number of concurrent instances for that function.
 
