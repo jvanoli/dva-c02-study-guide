@@ -8,7 +8,7 @@ weight: 4
 
 The following diagram illustrates how a request flows through API Gateway when an API is called.
 
-![image-20250114232708396](/Users/jvanoli/Library/Application Support/typora-user-images/image-20250114232708396.png)
+![image-20250114232708396](./assets/image-20250114232708396.png)
 
 1. `Method Request`
 
@@ -65,7 +65,7 @@ Doing canary releases within the same REST API stage is a great application of s
 
 ‭Consider a REST API stage with a Lambda function as the backend. Assume you're about to release a new‬ version of your API and want to test it with a subset of your users while continuing to serve the majority of‬ traﬃc with the old version. You can shift all traﬃc to the new version once you’re satisfied with it.‬‭ As shown in‬ the diagram below, the goal is to have a single API endpoint that dynamically interacts with two distinct‬ versions of the Lambda function.‬
 
-![image-20250114235406422](/Users/jvanoli/Library/Application Support/typora-user-images/image-20250114235406422.png)
+![image-20250114235406422](./assets/image-20250114235406422.png)
 
 This is where stage variables come into play. In the example, we have a Lambda function with two aliases (prod and beta). Rather than writing the actual aliases in your integration backend's settings, we can use the stage variable ver as a placeholder. You can then switch between different values of ver in the Canary setting of the API Stage and control the amount of traﬃc that goes to different aliases.
 
@@ -138,7 +138,7 @@ fetch('https://aaaa4vb5wf.execute-api.us-east-1.amazonaws.com/v1', {
 
 CORS a security mechanism that most web browsers such as Google Chrome or Mozilla Firefox enforce to relax the restrictions of the same-origin policy. The same-origin policy is a browser security feature that limits scripts loaded from an origin to only interact with resources from the same origin. While the intention is good, sometimes it can be too restrictive. Businesses today usually rely on third-party APIs to quickly add features to their applications. This would not be possible with the Same-Origin Policy in place. To solve this problem, engineers came up with the idea of Cross-origin resource sharing to loosen up the Same-Origin Policy restrictions.
 
-![image-20250115002053902](/Users/jvanoli/Library/Application Support/typora-user-images/image-20250115002053902.png)
+![image-20250115002053902](./assets/image-20250115002053902.png)
 
 Say you visit a website called `pet.com` using Google Chrome. Upon loading, Google Chrome will download the required assets (HTML, Javascript, images, fonts, etc.) from the website’s server to render the webpage. As you browse the website, you come across a fun feature that uses Artificial Intelligence (AI) to identify dog or cat breeds based on an image you upload. This feature is powered by a third-party API (`petbreed.com`), which is accessed via a Javascript file. Google Chrome will not immediately send a GET request to `petbreed.com` after you submit an image. Instead, it will first send a preflight OPTIONS request to confirm if `petbreed.com` does indeed allow `pet.com` to make GET requests. At the `petbreed.com` server’s end, the allowed domains and methods can be specified through the **`Access-Control-Allow-Origin`** and the **`Access-Control-Request-Method`** headers. The API developer can select which values to put in those headers. For example, `pet.com` can be defined as an `Access-Control-Allow-Origin` header value and `GET` as an `Access-Control-Request-Method` header value. This will explicitly grant `pet.com` to make `GET` requests to `petbreed.com`. Next, `petbreed.com` returns the list of allowed API methods and domains to Google Chrome. If `pet.com` is specified in the `Access-Control-Allow-Origin`, only then will Google Chrome send the actual `GET` request.
 
@@ -157,7 +157,7 @@ API Gateway lets you use Cognito User Pool or a Lambda function to authorize cli
 
 How Cognito User Pool authorizer works:
 
-![image-20250115002820198](/Users/jvanoli/Library/Application Support/typora-user-images/image-20250115002820198.png)
+![image-20250115002820198](./assets/image-20250115002820198.png)
 
 1. When a user logs in to the User Pool, Cognito checks if the credentials the user has submitted are valid.
 2. If the login is successful, Cognito returns a JSON web token (JWT) to the client.
@@ -169,7 +169,7 @@ You might want to implement a Lambda Function Authorizer to enforce custom autho
 
 <u>How a Lambda function Authorizer works:</u>
 
-![image-20250115003010860](/Users/jvanoli/Library/Application Support/typora-user-images/image-20250115003010860.png)
+![image-20250115003010860](./assets/image-20250115003010860.png)
 
 1. The application sends a GET method to API Gateway, along with a bearer token or request parameters.
 2. API Gateway will check whether a Lambda authorizer is enabled for the method. If it is, API Gateway calls the Lambda function that authorizes the request.
