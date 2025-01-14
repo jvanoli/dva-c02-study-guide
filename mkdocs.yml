@@ -8,7 +8,9 @@ site_url: https://jvanoli.github.io/dva-c02-study-guide
 docs_dir: 'docs'
 site_dir: public
 edit_uri: edit/main/docs
-
+extra_css:
+  - stylesheets/extra.css
+  
 # nav:
 #   - Home: Index.md
 #   - Introduction: Introduction.md
