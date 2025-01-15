@@ -56,7 +56,9 @@ When you create an API, you get to choose between a REST API, HTTP API, and a We
 In a‬‭ **Non-Proxy integration‬‭**,‬‭ API Gateway has control‬‭ over how client data is formatted before it’s passed down‬ to your integration backend or before it’s returned to the client. For example, instead of feeding the entire‬ request data to your backend, you can filter it first using mapping templates at the‬‭ `Integration` Request‬‭ level ‬to get only the portion that care for. The Non-Proxy integration is a bit more complex to implement and requires you to have knowledge of the Apached Velocity Template Language (VTL), which is the engine that API Gateway uses for mapping templates.
 
 **Reference:**
+
 - https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-integration-types.html
+
 
 ## Stage variables‭
 A Stage variable is a key-pair value that you can associate with a deployment stage of a REST API. You can‬ think of them as environment variables where you store different parameters or configuration values that your‬ API can access at runtime.‬
